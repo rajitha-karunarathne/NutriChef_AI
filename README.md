@@ -1,6 +1,12 @@
-# Run and deploy your AI app
+# NutriChef AI
 
-This contains everything you need to run your app locally.
+Unlock detailed nutritional insights and cooking guidance with NutriChef AI! This intelligent application analyzes food images to provide you with:
+
+*   **Calorie Counts:** Understand the estimated caloric content of your meal.
+*   **Ingredient Lists:** Get a precise list of ingredients scaled to your desired number of servings.
+*   **Recipe Generation:** Receive easy-to-follow steps to recreate the dish yourself.
+
+Get started quickly! This repository includes all necessary components to run NutriChef AI on your local machine.
 
 ## Run Locally
 
