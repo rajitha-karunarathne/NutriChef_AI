@@ -8,10 +8,11 @@ Unlock detailed nutritional insights and cooking guidance with NutriChef AI! Thi
 
 Get started quickly! This repository includes all necessary components to run NutriChef AI on your local machine.
 
+![NutriChefAI](https://github.com/user-attachments/assets/f1088ab3-1faf-4453-be67-5a3831938a56)
+
 ## Run Locally
 
 **Prerequisites:**  Node.js
-
 
 1. Install dependencies:
    `npm install`
