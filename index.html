@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-to-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NutriChef AI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#007AFF', // Apple Blue
+              primaryDarker: '#005ECC', // Darker blue for hover
+              secondary: '#5AC8FA', // Light Blue
+              accent: '#FF9500', // Apple Orange (for highlights)
+              background: '#F0F2F5', // Light Gray (iOS-like)
+              card: '#FFFFFF', // White
+              textPrimary: '#1C1C1E', // Near Black
+              textSecondary: '#8A8A8E', // Medium Gray
+              textLight: '#E5E5EA', // Light gray for text on dark/colored backgrounds
+              borderLight: '#D1D1D6', // Light border color
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.0.0"
+  }
+}
+</script>
+</head>
+  <body class="bg-background font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html><link rel="stylesheet" href="index.css">
+<script src="index.tsx" type="module"></script>

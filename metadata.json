@@ -1,0 +1,8 @@
+{
+  "name": "NutriChef AI",
+  "description": "An intelligent culinary assistant that analyzes your food images to provide detailed nutritional information, calorie counts, and step-by-step recipes tailored to your desired number of servings.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "prompt": ""
+}
